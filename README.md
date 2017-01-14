@@ -7,6 +7,7 @@ This project is designed for a robot to deliver snacks to users along a straight
 The robot has a driving motor, a turning motor and two line sensors. A white strip is placed on the ground to demarcate the line on which the robot can move. 
 
 Basic Functioning
+
 The snack robot is initially kept at one end of a dorm passageway. A user logs into the robot using ssh (remote-access).
 
 On receiveng the request, the master program operates the driving motor in the forward direction untill the camera on the bot observes a circle of the appropriate size and color on a particular door. 
